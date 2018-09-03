@@ -1,0 +1,1 @@
+在含有  .less文件的目录路径，通过  cmd的    lessc global.less > global.css     
