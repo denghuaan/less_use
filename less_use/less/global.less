@@ -1,0 +1,197 @@
+/*复位样式*/
+html,body{
+	font-size: 20px;  //根
+}
+
+body,a,textarea,input {
+    font-family: SourceHanSans, Microsoft YaHei, "微软雅黑", Verdana, Geneva, sans-serif;
+}
+a{  
+	text-decoration: none;
+}
+html,body，div,dl,dt,dd,ul,ol,li,p,h1,h2,h3,h4,h5,h6,th,td,hr,blockquote {
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+}
+
+/*公共样式*/
+p{
+    word-break: break-all;font-size: 0.6rem;color: #77787a;line-height: 0.85rem;
+}
+img{
+    vertical-align: middle;
+    width: 100%;
+}
+body{margin: 0px; padding: 0px;}
+
+ul>li{list-style: none;}
+
+
+h3{font-size: 0.8rem;color: #585757;}
+
+/*标题*/
+.title{
+	margin: 1rem 0;
+	h1:before{
+		position: absolute;
+		margin-top: 0.7rem;
+		margin-left: -1.5rem;
+		width:1.2rem;
+		height:1px;
+		content: '';
+		background: #464445;
+	} 
+	h1{
+	    text-align: center;
+		font-size: 1rem;
+		color: #525252;
+	}
+	h1:after{
+		position: absolute;
+		margin-top: 0.7rem;
+		margin-left: 0.5rem;
+		width:1.2rem;
+		height:1px;
+		content: '';
+		background: #464445;
+	} 
+	p{
+	    text-align: center;
+	}
+}
+
+.about01{
+    overflow: hidden;
+    background: #f9f9f9;
+    padding: 0rem 0.5rem;
+    h1{
+        margin-top: 1rem;
+    }
+        margin-top: 0rem;
+    img{
+        margin-bottom: 0.7rem;
+    }
+   p{
+       margin: 0rem 0rem 1rem 0rem;
+   }
+}
+
+.about02{
+    overflow: hidden;
+     padding: 0rem 0.5rem;
+    img{
+        width: 7.3rem;
+        height: 12.6rem;
+        float: left;
+        margin:0rem 0.7rem 0.75rem 0rem;
+    }
+}
+
+
+.about{
+    overflow: hidden;
+    padding: 0rem 0.5rem;
+    p{
+        margin-bottom: 1.3rem;
+    }
+    .oul{
+        display: flex;
+        flex-wrap: wrap;  //进行灵活拆分
+        justify-content: space-around;
+          li{    
+        width: calc(50% - 1.2rem);
+        text-align: center;
+        justify-content: space-between;
+        &:nth-child(2n){
+            margin-left: 0.3rem;
+        }
+        h3{
+            margin-bottom: 0.25rem;
+        }   
+        .about4{
+            width: 6rem;
+            height: 5.9rem;
+            margin:1.2rem 0rem 0.4rem 0rem;
+        }
+        .about6{
+            width: 8rem;
+            height: 5.9rem;
+            margin:1.2rem 0rem 0.4rem 0rem;
+        }
+    }
+    }   
+  
+}
+
+.about05{
+    overflow: hidden;
+    h1{
+        margin-top: 1.5rem;
+    }
+    img{
+        margin: 1rem 0rem 0rem 0rem;
+    }
+}
+
+
+
+.about07{
+    overflow: hidden;
+    p{
+        margin-bottom: 0.9rem;
+    }
+}
+
+.about08{
+    overflow: hidden;
+    text-align: center;
+    
+    h1{
+        margin-top: 0.4rem;
+    }
+    p{
+        margin-bottom: 1.1rem;
+    }
+    .nav{
+        display: flex;
+        overflow: hidden;
+        justify-content: space-around;
+    }
+    li{
+        width: 4.25rem;
+        height: 1rem;
+        float: left;
+        background: #73c9c0;
+        border-top-left-radius: 0.8rem;
+        border-bottom-right-radius: 0.8rem;
+        margin:0rem 0rem 1.7rem 0.2rem;
+        text-align: center;
+        line-height: 0.6rem;
+       a{
+           font-size: 0.6rem;
+           color: white;
+       }      
+    }
+     input{
+           width: 16rem;
+           height: 1.6rem;
+           border: 1px solid hotpink;
+           border-top-left-radius: 1rem;
+           border-bottom-right-radius: 1rem;
+           margin-bottom: 0.7rem;
+           padding: 0.1rem 0.2rem;      
+           outline: none; 
+       }  
+    .gao{
+        height: 5.3rem;
+    } 
+    .btn{
+        width: 11.2rem;
+        background: #ee85ae;
+        margin-top: 0.4rem;
+        color: white;
+    }
+      
+    
+}
